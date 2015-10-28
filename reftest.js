@@ -13,6 +13,7 @@ var testEngine = new ReftestEngine({
     },
     rootDir: __dirname
 });
+
 function allPassed(resultList) {
     return resultList.every(function (result) {
         return result.passed;
