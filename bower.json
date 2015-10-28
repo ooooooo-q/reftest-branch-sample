@@ -1,0 +1,20 @@
+{
+  "name": "reftest-branch-sample",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ooooooo-q/reftest-branch-sample",
+  "authors": [
+    "ooooooo-q <ooooooo-q@users.noreply.github.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "backbone": "~1.2.3",
+    "jquery": "~2.1.4"
+  }
+}
