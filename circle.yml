@@ -5,3 +5,7 @@ machine:
 general:
   artifacts:
     - "logs"
+
+dependencies:
+  post:
+    - bower install
