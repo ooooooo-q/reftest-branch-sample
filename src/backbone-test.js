@@ -14,7 +14,7 @@ var ButtonView = Backbone.View.extend({
 
 $(function(){
 	var view = new ButtonView({model: new ButtonModel});
-	view.model.set({word: "diff!"});
+	view.model.set({word: "diff! changed!"});
 	$(".target").append(view.render());
 
 	document.documentElement.className = "";
